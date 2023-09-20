@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Nayfeh's Portfolio</title>
+    <!--Link to favicon-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--Navigation to the different pages in the header tag-->
+    <header id="pageHeader">
+      <div id="navContainer">
+        <nav id="navBar">
+          <a href="./index.html" class="nav_option">Home</a>
+          <a href="./html/my_resume.html" class="nav_option">Resume</a>
+          <a href="./html/my_fun_facts.html" class="nav_option">Fun Facts</a>
+        </nav>
+      </div>
+    </header>
+    <hr />
+    <!--A picture of myself and a quote within the main tag-->
+    <main id="mainInfo">
+      <h1>Omar Nayfeh's Portfolio Website</h1>
+      <!--Link to my picture-->
+      <img
+        src="./img/OmarNayfehPhoto.jpg"
+        alt="Picture of Omar Nayfeh"
+        height="250"
+        width="250"
+      />
+      <!--Quote using the pre tag so it can be indented-->
+      <pre>
+        "You can fool all of the people some of the time, and some of the people all of the time, 
+        but you can't fool all of the people all of the time." - Abraham Lincoln
+      </pre>
+    </main>
+    <!--A section tag is used here to encompass the rest of the content on this page-->
+    <section id="additionalContent">
+      <!--An article tag is used her to keep different information together, here its about the Introduction-->
+      <article id="intoductionContent">
+        <h2>Introduction</h2>
+        <p>
+          I am a senior at Oakland University from Shelby Township, Michigan
+          skilled with C# .NET, Java, and Python. I am looking to leverage
+          experience building and maintaining scalable applications that
+          delights end-users. Motivated to learn from senior engineers while
+          also sharing innovative ideas in an environment that values
+          communication and personal growth. Worked as an Application Developer
+          Intern at United Wholesale Mortgage, and seeking entry level Software
+          Developer positions. For more information about me, check out my
+          Resume and Fun Facts pages.
+        </p>
+      </article>
+      <!--An article tag is used her to keep different information together, here its about the progess to degree-->
+      <article id="progressDegree">
+        <!--Label for the progress tag-->
+        <label for="progressToDegree">Progress to Degree:</label>
+        <!--Progress tag showing how many credits until completion-->
+        <progress id="progressToDegree" value="111" max="128">86%</progress>
+      </article>
+    </section>
+    <br />
+    <hr />
+    <!--Copyright information including email and LinkedIn profile in the footer tag-->
+    <footer id="pageFooter">
+      <span>nayfeho1@gmail.com</span>
+      <!--Anchor tag to my LinkedIn link-->
+      <a href="https://www.linkedin.com/in/omar-nayfeh-077653217/">
+        LinkedIn
+      </a>
+    </footer>
+  </body>
+</html>
