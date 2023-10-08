@@ -7,29 +7,33 @@
     <title>Omar Nayfeh's Portfolio</title>
     <!--Link to favicon-->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
     <!--Navigation to the different pages in the header tag-->
-    <header id="pageHeader">
-      <div id="navContainer">
-        <nav id="navBar">
-          <a href="./index.html" class="nav_option">Home</a>
-          <a href="./html/my_resume.html" class="nav_option">Resume</a>
-          <a href="./html/my_fun_facts.html" class="nav_option">Fun Facts</a>
-        </nav>
+    <nav class="navBar">
+      <div class="logo">
+        <span>Portfolio</span>
       </div>
-    </header>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html/my_resume.html">Resume</a></li>
+          <li>
+            <a href="./html/my_fun_facts.html">Fun Facts</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
     <hr />
     <main id="mainInfo">
       <h1>Omar Nayfeh's Portfolio Website</h1>
-      <figure>
+      <figure class="picture">
         <!--Link to my picture-->
-        <img
-          src="./img/OmarNayfehPhoto.jpg"
-          alt="Picture of Omar Nayfeh"
-          height="250"
-          width="250"
-        />
+        <img src="./img/OmarNayfehPhoto.jpg" alt="Picture of Omar Nayfeh" />
         <!--Quote using the pre tag so it can be indented-->
         <figcaption>
           "You can fool all of the people some of the time, and some of the
@@ -64,9 +68,9 @@
       </section>
     </main>
     <br />
-    <hr />
     <!--Copyright information including email and LinkedIn profile in the footer tag-->
     <footer id="pageFooter">
+      <hr />
       <!--Anchor tag to my email-->
       <a href="mailto:nayfeho1@gmail.com"> nayfeho1@gmail.com </a>
       <!--Anchor tag to my LinkedIn link-->

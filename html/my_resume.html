@@ -7,18 +7,27 @@
     <title>Omar Nayfeh's Portfolio</title>
     <!--Link to favicon-->
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/style.css" />
   </head>
   <body>
     <!--Navigation to the different pages in the header tag-->
-    <header id="page_header">
-        <div id="navContainer">
-            <nav id="navbar">
-              <a href="../index.html" class="nav_option">Home</a>
-              <a href="./my_resume.html" class="nav_option">Resume</a>
-              <a href="./my_fun_facts.html" class="nav_option">Fun Facts</a>
-            </nav>
-          </div>
-      </header>
+    <nav class="navBar">
+      <div class="logo">
+        <span>Portfolio</span>
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/my_resume.html">Resume</a></li>
+          <li>
+            <a href="../html/my_fun_facts.html">Fun Facts</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
     <hr />
     <!--Header of page and contact info within the main tag-->
     <main id="resumeInfo">
@@ -80,9 +89,9 @@
       </article>
     </section>
   </main>
-    <hr />
     <!--Copyright information including email and LinkedIn profile in the footer tag-->
     <footer id="pageFooter">
+        <hr />
         <!--Anchor tag to my email-->
         <a href="mailto:nayfeho1@gmail.com"> nayfeho1@gmail.com </a>
         <!--Anchor tag to my LinkedIn link-->
