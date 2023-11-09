@@ -121,3 +121,7 @@ figcaption {
 .projects li {
   margin-left: 20px;
 }
+.projects a {
+  display: block;
+  width: max-content;
+}
