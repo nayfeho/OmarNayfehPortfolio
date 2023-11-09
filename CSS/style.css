@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-li {
+.menu li {
   list-style: none;
 }
 
@@ -112,4 +112,12 @@ figcaption {
   bottom: 0;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#professionalExperience li {
+  margin-left: 20px;
+}
+
+.projects li {
+  margin-left: 20px;
 }
