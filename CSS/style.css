@@ -98,17 +98,14 @@ input[type="checkbox"] {
   }
 
   img {
-    img {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-    }
+    width: auto;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 .picture {
   float: right;
-  left: 1000px;
   font-size: 10px;
 }
 
