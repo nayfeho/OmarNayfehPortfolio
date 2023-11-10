@@ -97,17 +97,17 @@ input[type="checkbox"] {
     display: block;
   }
 
-  .picture {
-    float: right;
-    width: 20%;
-    left: 1000px;
-    font-size: 10px;
+  img {
+    img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+    }
   }
 }
 
 .picture {
   float: right;
-  width: 40%;
   left: 1000px;
   font-size: 10px;
 }
